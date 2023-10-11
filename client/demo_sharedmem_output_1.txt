@@ -1,0 +1,92 @@
+
+Hi 
+
+Hi 
+
+Hi 
+
+line1 process B server
+
+line1 process B client
+
+line1 process B client
+
+line1 process A server
+
+line1 process B server
+
+line1 process A server
+line2 process A server
+line3 process A server
+line4 process A server
+exit
+
+line1 process B client
+line2 process B client
+line3 process B client
+line4 process B client
+exit
+line1 process B server
+line2 process B server
+line3 process B server
+line4 process B server
+exit
+
+line1 process A server
+line2 process A server
+line3 process A server
+line4 process A server
+exit
+
+line1 process B client
+line2 process B client
+line3 process B client
+line4 process B client
+exit
+line1 process B server
+line2 process B server
+line3 process B server
+line4 process B server
+exit
+
+line1 process A server
+line2 process A server
+line3 process A server
+line4 process A server
+exit
+
+line1 process B client
+line2 process B client
+line3 process B client
+line4 process B client
+exit
+line1 process B server
+line2 process B server
+line3 process B server
+line4 process B server
+exit
+
+
+line1 process A server
+line2 process A server
+line3 process A server
+line4 process A server
+exit
+
+line1 process A server
+line2 process A server
+line3 process A server
+line4 process A server
+exit
+
+line1 process B client
+line2 process B client
+line3 process B client
+line4 process B client
+exit
+line1 process A server
+line2 process A server
+line3 process A server
+line4 process A server
+exit
+

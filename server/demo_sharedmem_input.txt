@@ -1,0 +1,5 @@
+line1 process A server
+line2 process A server
+line3 process A server
+line4 process A server
+exit

@@ -1,0 +1,5 @@
+line1 process B server
+line2 process B server
+line3 process B server
+line4 process B server
+exit
