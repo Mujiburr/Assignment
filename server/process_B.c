@@ -122,6 +122,11 @@ int main(int argc, char*argv[])
 	// Change the server IP
 	const char *server_ip = argv[1];
 
+	if(argc <=1)
+    {
+        printf("Please provide Interface IP to run the server\n");
+        exit(0);
+    }
     // socket create and verification 
     sockfd = socket(AF_INET, SOCK_STREAM, 0); 
     if (sockfd == -1) { 
