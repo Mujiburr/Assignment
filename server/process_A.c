@@ -116,12 +116,12 @@ void *handle_receiving(void *arg)
 	printf("\nPROCESS_A server Preserved\n");
 }
 
-int main()
+int main(int argc, char *argv[])
 {
 	int sockfd, connfd, len; 
     struct sockaddr_in servaddr, cli; 
 	const int enable = 1;
-	const char *server_ip = "192.168.160.115";
+	const char *server_ip = argv[1];
 
     // socket create and verification 
     sockfd = socket(AF_INET, SOCK_STREAM, 0); 
