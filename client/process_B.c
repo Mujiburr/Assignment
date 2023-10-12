@@ -115,11 +115,16 @@ void *handle_receiving(void *arg)
     printf("\nPROCESS_B client Preserved\n");
 }
 
-int main()
+int main(int argc, char *argv[])
 {
 	int sockfd;
     struct sockaddr_in servaddr, cli;
- 
+	if(argc <= 1)
+	{
+		printf("Please provide Server IP\n");
+		exit(0);
+	}
+
     // socket create and verification
     sockfd = socket(AF_INET, SOCK_STREAM, 0);
     if (sockfd == -1) {
@@ -132,7 +137,7 @@ int main()
  
     // assign IP, PORT
     servaddr.sin_family = AF_INET;
-    servaddr.sin_addr.s_addr = inet_addr(SERVER_IP);
+    servaddr.sin_addr.s_addr = inet_addr(argv[1]);
     servaddr.sin_port = htons(PORT);
  
     // connect the server socket to server socket
